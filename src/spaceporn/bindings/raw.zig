@@ -6,8 +6,8 @@ pub usingnamespace @cImport ({
   @cDefine ("GLFW_INCLUDE_NONE", "1");
   @cInclude ("GLFW/glfw3.h");
   @cInclude ("dcimgui.h");
-  @cInclude ("backends/cimgui_impl_glfw.h");
-  @cInclude ("backends/cimgui_impl_vulkan.h");
+  @cInclude ("backends/dcimgui_impl_glfw.h");
+  @cInclude ("backends/dcimgui_impl_vulkan.h");
 });
 
 pub const call_conv: std.builtin.CallingConvention =
